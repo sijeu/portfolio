@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body style="background-color: rgb(153, 108, 50);">
+    <div style="color:rgb(221, 192, 98); background-color:rgb(110, 92, 11)">
+        <center>
+            <h1>MLBB Registration</h1>   
+            <h3>Welcome to the Registration Page</h3>  
+        </center> 
+
+        <nav style="background-color: rgb(218, 178, 119);">
+            <center>
+                <a href="Registration.html">Home</a>
+
+                &nbsp; | &nbsp;
+
+                <a href="Registration.html">About</a>
+
+                &nbsp; | &nbsp;
+
+                <a href="Registration.html">Contact</a>
+            </center>
+        </nav>
+    </div> 
+
+    <div style="background-color: rgb(163, 115, 42);">
+        <h2 style="color: rgb(58, 37, 10);">Player Registration Form</h2>
+        <form style="color: rgb(44, 24, 5);">
+            User ID (UID):  <br>
+            <input type="number" name="user_id" />
+
+            <br>
+            <br>
+
+            In-Game Name:<br>
+            <input type="text" name="ingame_name" />
+
+            <br>
+            <br>
+
+            Password:<br><input type="password" name="password" />
+
+            <br>
+            <br>
+
+            Email:<br>
+            <input type="e-mail" name="email" />
+
+            <br>
+            <br>
+
+            Age:<br>
+            <input type="number" name="age" />
+
+            <br>
+            <br>
+
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+
+            <br>
+            <br>
+
+            <select name="dropdown">
+                <option value="role" selected>Role</option>
+                <option value="jungle">Jungle</option>
+                <option value="gold">Gold</option>
+                <option value="exp">EXP</option>
+                <option value="mid">Mid</option>
+                <option value="roam">Roam</option>
+            </select>
+
+            <br>
+            <br>
+
+            Your Role: <br>
+                <input type="checkbox" name="Fighter" value="fighter"> Fighter
+                <input type="checkbox" name="Marksman" value="marksman"> Marksman
+                <input type="checkbox" name="Assasin" value="ass"> Assasin
+                <input type="checkbox" name="Mage" value="mage"> Mage
+                <input type="checkbox" name="Tank" value="tank"> Tank
+
+            <br>
+            <br>
+
+            Thoughts for joing our organization: <br>
+            <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea>
+            <br>
+
+            <p>Upload your profile:</p>
+            <input type="file" name="fileupload" accept="image/*" />
+
+            <br>
+
+            <input type="submit" name="submit" value="Submit" />
+
+            <br>
+            <br>
+            
+            <input type="button" name="OK"  value="OK" />
+            <input type="button" name="cancel" value="Reset"  />
+        </form>        
+    </div>
+
+    <center style="color: rgb(37, 22, 0);">
+        <h4>MLBB Community</h4>
+        <h4>Moonton</h4>
+    </center>
+    </body>
+</html>

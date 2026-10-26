@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="myWebsite.css">
+</head>
+<body class = "loginbody">
+    <div class = "logintop">
+        <h1>MLBB Registration</h1>   
+        <h3>Welcome to the Registration Page</h3>  
+
+        <nav class = "loginnav">
+            <a href="Home.html">Home</a>
+
+            &nbsp; | &nbsp;
+
+            <a href="myProfile.html">My Profile</a>
+
+            &nbsp; | &nbsp;
+
+            <a href="Registration.html">Contact</a>
+        </nav>
+    </div> 
+    <div class="loginform">
+        <h2>Player Registration Form</h2>        
+        <form >
+        User ID (UID):  <input type="text" name="user_id" />
+
+        <br>
+        <br>
+
+        In-Game Name:   <input type="text" name="ingame_name" />
+
+        <br>
+        <br>
+
+        Password:  <input type="password" name="password" />
+
+        <br>
+        <br>
+
+        Email:  <input type="e-mail" name="email" />
+
+        <br>
+        <br>
+
+        Age:  <input type="number" name="age" />
+
+        <br>
+        <br>
+
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+
+        <br>
+        <br>
+
+        <select name="dropdown">
+            <option value="role" selected>Role</option>
+            <option value="jungle">Jungle</option>
+            <option value="gold">Gold</option>
+            <option value="exp">EXP</option>
+            <option value="mid">Mid</option>
+            <option value="roam">Roam</option>
+        </select>
+
+        <br>
+        <br>
+
+        Your Role: <br>
+            <input type="checkbox" name="Fighter" value="fighter"> Fighter
+            <input type="checkbox" name="Marksman" value="marksman"> Marksman
+            <input type="checkbox" name="Assasin" value="ass"> Assasin
+            <input type="checkbox" name="Mage" value="mage"> Mage
+            <input type="checkbox" name="Tank" value="tank"> Tank
+
+        <br>
+        <br>
+
+        Thoughts for joing our organization:<br>
+            <textarea rows="5" cols="50" name="description" placeholder=” Enter description here...”></textarea>
+
+            <br>
+
+            <p>Upload your profile:</p>
+            <input type="file" name="fileupload" accept="image/*" />
+
+            <br>
+
+            <input type="submit" name="submit" value="Submit" />
+
+            <br>
+            <br>
+            
+            <input type="button" name="OK"  value="OK" />
+            <input type="button" name="cancel" value="Reset"  />
+        </form>        
+    </div>
+    <section class="bottom">
+        <h4>MLBB Community</h4>
+        <h4>Moonton</h4>
+    </section>
+</body>
+</html>

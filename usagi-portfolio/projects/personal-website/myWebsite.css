@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+}
+
+.homebody{
+    background-color: rgb(75, 152, 219);
+}
+
+.headings{
+    background-color: rgb(75, 152, 219);
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 90px;
+}
+
+.navigation{
+    background-color: rgb(124, 163, 197);
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    height: 30px;
+    justify-content: center;
+}
+
+.welcome{
+    background-color: rgb(38, 89, 133);
+    text-align: justify;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.welcomesubtext{
+    background-color: rgb(38, 89, 133);
+    text-align: justify;
+}
+
+.announcement{
+    background-color: rgb(14, 74, 128);
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+}
+
+.logintop{
+    color:rgb(221, 192, 98); background-color:rgb(110, 92, 11);
+    text-align: center;
+}
+
+.loginbody{
+    background-color: rgb(153, 108, 50);
+}
+
+.loginnav{
+    background-color: rgb(218, 178, 119);
+    text-align: center;
+}
+
+.loginform{
+    background-color: rgb(163, 115, 42);
+}
+
+.bottom{
+    color: rgb(37, 22, 0);
+    text-align: center;
+}
+
+.profile{
+    display: flex;
+    padding: 30px;
+}
+
+.info{
+    background-color: rgb(14, 74, 128);
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+    flex: 20;
+}
+
+.bodyprofile{
+    background-color: rgb(75, 152, 219);
+}
+
+.orange{
+    background-color: rgb(14, 74, 128);
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid;
+    border-radius: 20px;
+}
+
+.orangepic{
+    width: 300px;
+    height: 300px;
+}

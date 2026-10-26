@@ -1,0 +1,40 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    text-align: center;
+}
+
+button{
+    border: solid 1px;
+    border-radius: 20px;
+    background-color: rgb(178, 219, 173);
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.card input{
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+
+.card{
+    margin: 30px;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card2{
+    margin: 3%;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
